@@ -8,7 +8,6 @@
 	    <RestoreAdditionalProjectSources>
           https://api.nuget.org/v3/index.json;
           https://nuget.emzi0767.com/api/v3/index.json;
-          $(MSBuildThisFileDirectory)/../References/
         </RestoreAdditionalProjectSources>
     </PropertyGroup>
 
