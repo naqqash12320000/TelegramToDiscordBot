@@ -1,1 +1,1 @@
-start: bin/DiscordToTelegramBot/bin/Release/net6.0/linux-x64/DiscordToTelegramBot
+start: DiscordToTelegramBot/bin/Release/net6.0/linux-x64/DiscordToTelegramBot
