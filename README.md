@@ -3,9 +3,9 @@
 ## Configuration
 You can set all tokens only in enviroment variables.
 
-`DISCORD_TOKEN` - Discord **BOT** token, this required to send message to discord and create threads.
-`TG_TOKEN` - Telegram bot token, required to read channel and repost it to discord!
-`POST_CHANNEL_ID` - Discord channel id required to post messages.
+ - `DISCORD_TOKEN` - Discord **BOT** token, this required to send message to discord and create threads.
+ - `TG_TOKEN` - Telegram bot token, required to read channel and repost it to discord!
+ - `POST_CHANNEL_ID` - Discord channel id required to post messages.
 
 
 ## Requirements
