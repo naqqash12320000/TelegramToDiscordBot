@@ -1,0 +1,24 @@
+{
+    "name": "Telegram to Discord bridge",
+    "description": "This app allows to create bridge between Telegram and Discord channels.",
+    "keywords": ["Telegram", "Discord", "Bridge"],
+    "repository": "https://github.com/DHCPCD9/TelegramToDiscordBot",
+    "env": {
+        "DISCORD_TOKEN": {
+            "description": "Discord bot token.",
+            "required": true
+        },
+        "TG_TOKEN": {
+            "description": "Telegram bot token.",
+            "required": true
+        },
+        "POST_CHANNEL_ID": {
+            "description": "Discord channel ID for messages from telegram."
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "https://github.com/jincod/dotnetcore-buildpack"
+        }
+    ]
+}
