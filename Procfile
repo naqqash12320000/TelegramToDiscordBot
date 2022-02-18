@@ -1,1 +1,1 @@
-start: dotnet run . -c Release
+start: bin/DiscordToTelegramBot/bin/Release/net6.0/linux-x64/DiscordToTelegramBot
