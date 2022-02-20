@@ -1,5 +1,8 @@
 # TelegramToDiscordBot
 
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/DHCPCD9/TelegramToDiscordBot)
+
 ## Configuration
 You can set all tokens only in enviroment variables.
 
