@@ -76,7 +76,12 @@ public class Handler
 
             var discordMessage = await channel.SendMessageAsync(messageBuilder);
 
-            await discordMessage.CreateThreadAsync("Обсуждение", AutoArchiveDuration.Day, "Auto-post creation....");
+            if (message.ForwardFromChat is not null)
+            {
+                messageBuilder.AddComponents(new DiscordLinkButtonComponent($"https://t.me/{message.ForwardFromChat.Id}/{message.ForwardFromMessageId}", "Источник", false, new DiscordComponentEmoji("✈️")));
+            }
+
+            await discordMessage.CreateThreadAsync("Обсуждение", AutoArchiveDuration.Hour, "Auto-post creation....");
 
             MessageCache.Add(message.MessageId, discordMessage);
         }
