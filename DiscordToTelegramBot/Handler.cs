@@ -78,7 +78,7 @@ public class Handler
 
             if (message.ForwardFromChat is not null)
             {
-                messageBuilder.AddComponents(new DiscordLinkButtonComponent($"https://t.me/{message.ForwardFromChat.Id}/{message.ForwardFromMessageId}", "Источник", false, new DiscordComponentEmoji("✈️")));
+                messageBuilder.AddComponents(new DiscordLinkButtonComponent($"https://t.me/c/{message.ForwardFromChat.Id}/{message.ForwardFromMessageId}", "Источник", false, new DiscordComponentEmoji("✈️")));
             }
 
             await discordMessage.CreateThreadAsync("Обсуждение", AutoArchiveDuration.Hour, "Auto-post creation....");
