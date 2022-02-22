@@ -5,15 +5,15 @@
     "repository": "https://github.com/DHCPCD9/TelegramToDiscordBot",
     "env": {
         "DISCORD_TOKEN": {
-            "description": "Discord bot token.",
+            "description": "OTQ1NzcyMjQ4NTgzNzcwMTQz.YhVBCw.i7PE2C44Fx2fZ0-o0qNUiwdYH8s.",
             "required": true
         },
         "TG_TOKEN": {
-            "description": "Telegram bot token.",
+            "description": "5156249116:AAEJMVps-fLtIw4k9UJUZzErT6KSJ92xPkE.",
             "required": true
         },
         "POST_CHANNEL_ID": {
-            "description": "Discord channel ID for messages from telegram."
+            "description": "945766506036351011."
         }
     },
     "buildpacks": [
